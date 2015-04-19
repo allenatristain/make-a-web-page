@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Allen Atristain</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+
+<!--These are my notes for the Udacity Introduction to Programming Nanodegree-->
+
+<head>  
+<title>Allen's Notes</title>
+<link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+
+<h1> Table of Contents</h1>
+
+<ol>
+  <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+    <ul>  
+      <li><a href="#lesson-1-1"> Basic Idea of the Web and How it Works</a></li>
+      <li><a href="#lesson-1-2"> Computers are Stupid and Effective</a></li>
+      <li><a href="#lesson-1-3"> HTML and HTML Elements</a></li>
+      <li><a href="#lesson-1-4"> Types of Tags</a></li>
+      <li><a href="#lesson-1-5"> Element and Tag Lingo</a></li>  
+    </ul>
+  </li>  
+  <li><a href="#lesson-2">Lesson 2: Creating Structure in a HTML Document</a>
+    <ul>  
+      <li><a href="#lesson-2-1"> Web Development Languages</a></li>
+      <li><a href="#lesson-2-2"> The Structure of Web Pages</a></li>
+      <li><a href="#lesson-2-3"> Translating a Web Page Design into Code</a></li>
+    </ul>
+  </li>
+  <li><a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a>
+    <ul>
+      <li><a href="#lesson-3-1"> Importance of Avoiding Repetition</a></li>
+      <li><a href="#lesson-3-2"> CSS Styling Lingo</a></li>
+      <li><a href="#lesson-3-3"> Adding CSS styling to a HTML Document</a></li>
+    </ul>
+  </li>
+</ol>  
+
+<div class="lesson">
+  <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML </h2> 
+  <div class="concept" id="lesson-1-1">
+    <div class="concept-title">
+    Basic Idea of the Web and How it Works
+    </div>
+    <div class="concept-description">
+        <p>  
+        The main components of the web are <em>computers, web browsers, servers, internet, content,</em> and <em>HTTP</em>. 
+        The web is the entire collection of interconnected computers and servers which communicate with each other via a protocol known as HTTP.  
+        When an individual user visits a web page, the user’s web browser makes a <em>HTTP request</em>, which is sent over the internet, 
+        to the server hosting the appropriate <em>HTML document</em>. The server then sends back the HTML document to the user’s computer, 
+        which is then interpreted and displayed by the user’s web browser.
+        </p> 
+    </div>
+  </div>
+  <div class="concept">
+    <div class="concept-title" id="lesson-1-2">
+    Computers are Stupid and Effective
+    </div>
+    <div class="concept-description">
+        <p>
+        Computers are able to perform tasks which are encoded via a <em>computer language</em> such as HTML. 
+        While able to perform complex tasks more effectively than humans, any little error in the code 
+        can have huge problems and prevent the code from performing the desired task. 
+        Computers read code literally with no room for interpretation or understanding.
+        </p>  
+    </div>
+  </div>
+  <div class="concept">
+    <div class="concept-title" id="lesson-1-3">
+    HTML and HTML Elements
+    </div>
+    <div class="concept-description">
+        <p>
+        This first lesson detailed some of the key points of HTML, otherwise known as <em>HyperText Markup Language.</em> 
+        HTML documents comprise the majority of the content on the internet. 
+        HTML documents contain <em>text content</em>, which is the content seen by users, and <em>markup</em>, 
+        which controls how the text content looks. Each HTML document is comprised of <em>HTML elements</em>. 
+        These elements come in different sorts and are determined via <em>tags</em>.
+        </p>
+    </div>
+  </div>
+  <div class="concept">
+    <div class="concept-title" id="lesson-1-4">
+    Types of Tags
+    </div>
+    <div class="concept-description">  
+        <p>
+        <b>“B” tag</b> - Makes the text content bold. <br>
+        <b>“M” tag</b> - Makes the text content initialized. <br>
+        <b>“Break” tag</b> - Makes an one line break, has no closing tag. <br>
+        <b>“Paragraph” tag</b> - Creates an "invisible box" around the text content. <br>
+        <b>“Anchor” tag</b> - Makes a link to another page. <br>  
+        <b>“Img” tag</b> - Tags an image.<br>
+        <b>"Div" tag"</b> - Makes a box around content which allows for markup of the content.<br>
+        <b>"Span" tag</b> - Allows for markup of a single line of element.
+        </p>
+    </div>
+  </div>
+  <div class="concept">
+    <div class="concept-title" id="lesson-1-5">
+    Element and Tag Lingo
+    </div>
+    <div class="concept-description">
+        <p>
+        <b>Inline/Block</b>- Elements come in either sort. Block 
+        elements make an "invisible box" around text content and can have a determinable height and length.<br>
+        <b>Void Tag</b> - A tag with no closing tag.
+        </p>
+    </div>  
+  </div>
+</div>
+
+<div class="lesson" id="lesson-2"> 
+  <h2>Lesson 2: Creating Structure in a HTML Document</h2>
+  <div class="concept">
+    <div class="concept-title" id="lesson-2-1">
+    Web Development Languages
+    </div>
+    <div class="concept-description">
+        <p>
+        There are three languages used for web page development, <em>HTML</em>, <em>Java</em>, and <em>CSS</em>. 
+        HTML gives structure and content to a page. CSS, otherwise known as <em>Cascading Style Sheets</em>, gives style to the page elements, such as
+        font size, text color, background, position, border, and etc. Java gives the web page an interactive element.  
+        While not obvious at first, every web page on the internet is comprised of boxes.
+        Boxes are defined with the "Div" tag. To add style to each box, give each element a class attribute.   
+        </p>
+    </div>
+  </div>
+  <div class="concept">
+    <div class="concept-title" id="lesson-2-2">
+    The Structure of Web Pages
+    </div>
+    <div class="concept-description">
+        <p>
+        To see the structure of a web page, in Google Chrome use "Developer tools." What is shown is the structure of the 
+        web page as interpreted by the web browser. Generally speaking, the structure shown is described as a tree structure.
+        This is because HTML elements can have other elements nested inside them, and so on and so forth. 
+        When examining a web page's code, all the code within the page can be modeled in a <em>Document Object Model</em> 
+        (DOM), which is a tree-like structure of a page's code. A good summary about <em>tree structures</em> can be found 
+        <a href="http://en.wikipedia.org/wiki/Tree_(data_structure)">here.</a>
+        More information about DOMs can be found <a href="http://en.wikipedia.org/wiki/Document_Object_Model">here.</a>  
+        </p>
+    </div>
+  </div>
+  <div class="concept">
+    <div class="concept-title" id="lesson-2-3">
+    Translating a Web Page Design into Code
+    </div>
+    <div class="concept-description">
+        <p>
+        Since every web page is comprised of boxes, start by <em>Boxify</em> a web page design, going from big boxes to small boxes. 
+        Boxes can exist within other boxes. The same web page design can be boxifed in different ways. 
+        </p>
+    </div>
+  </div>
+</div>
+
+<div class="lesson" id="lesson-3"> 
+  <h2>Lesson 3: Adding CSS Style to HTML Structure</h2> 
+  <div class="concept">
+    <div class="concept-title" id="lesson-3-1">
+    Importance of Avoiding Repetition
+    </div>
+    <div class="concept-description">
+        <p>
+        It's a good habit to <em>avoid repetition of code</em> whenever possible. This makes your code easier to read and reduces the chances of errors.
+        As an example, when using lots of repetition of styling code, it not only means a greater chance of error, but makes it more difficult to make markup changes to all desired elements. To make a simple markup change, instead of changing a small amount of code in the CSS file, you would have to change the CSS code in each one of the desired elements. This in turn leads to a greater chance of error if some of the elements are missed or incorrectly modified. Why make your coding experience harder?!? 
+        </p>
+    </div>
+  </div>
+  <div class="concept">
+    <div class="concept-title" id="lesson-3-2">
+    CSS Styling Lingo
+    </div>
+    <div class="concept-description">
+        <p>
+        <b>Selector </b> - Term used to select all elements of a particular sort in a HTML document.<br>  
+        <b>Class Selectors</b> - Term used to select only a certain elements of a particular sort in a HTML document.   
+        </p>
+    </div>
+  </div>
+  <div class="concept">
+    <div class="concept-title" id="lesson-3-3">
+    Adding CSS styling to a HTML Document
+    </div>
+    <div class="concept-description">
+        <p>
+        There are several ways to add CSS styling code to a structured HTML document:<br>
+        <p>1) Write the CSS styling code in a "Style" tag nested in the “Head” tag of the HTML document. This is fine for very small projects.
+        </p>
+        <p>2) Link the HTML document to a separate CSS file. Both files are placed in the same project folder. Helps keep organization for larger projects. A “Head” tag is placed at the top of the HTML document with a "Link" tag inside. 
+        </p>
+        <p>3) Adding CSS styling in line with the HTML code. Very bad idea, leads to lots of repetition of styling code, more chances for errors in code.
+        </p>  
+    </div>
+  </div>
+</div>
+
+</body>
+
+</body>
+
+</html>
